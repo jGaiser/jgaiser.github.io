@@ -11,6 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html {
   color: #222;
   font-size: 1em;
@@ -261,3 +263,41 @@ textarea {
   }
 }
 
+body {
+  background: url("../img/university-montana_1001.jpg");
+}
+
+img#profile {
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+.profileColumn {
+  text-align: center;
+}
+
+.aboutMe h4 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+p {
+  color: gray;
+  font-size: 20px;
+  }
+
+a.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.mainContainer {
+  padding: 30px;
+  margin-top: 30px;
+  background: white;
+  border: 3px solid black;
+}
+
+nav {
+  margin-bottom: 0px;
+}
